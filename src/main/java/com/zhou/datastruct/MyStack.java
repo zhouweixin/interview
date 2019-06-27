@@ -1,7 +1,9 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 import junit.framework.TestCase;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -41,5 +43,20 @@ public class MyStack extends TestCase {
         list.add(2);
         list.removeLast();
         System.out.println(list);
+    }
+
+    public void test2() throws IOException {
+        FileOutputStream fos = new FileOutputStream("乘法口决.txt");
+
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                String res = String.format("%d x %d = %-2d ", j, i, i * j);
+                System.out.print(res);
+                fos.write(res.getBytes());
+            }
+            System.out.println();
+            fos.write("\r\n".getBytes());
+        }
+        fos.close();
     }
 }

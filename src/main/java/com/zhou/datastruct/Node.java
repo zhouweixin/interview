@@ -1,4 +1,4 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 public class Node {
     public String value;

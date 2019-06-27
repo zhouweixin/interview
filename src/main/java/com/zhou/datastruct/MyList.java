@@ -1,4 +1,4 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 import junit.framework.TestCase;
 
@@ -148,6 +148,7 @@ public class MyList extends TestCase {
         }
         System.out.println();
     }
+
 
 
 }

@@ -1,4 +1,4 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 import java.util.ArrayList;
 import java.util.List;

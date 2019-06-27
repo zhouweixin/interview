@@ -1,4 +1,4 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 import org.junit.Test;
 

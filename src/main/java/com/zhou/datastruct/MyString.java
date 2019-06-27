@@ -1,4 +1,4 @@
-package com.zhou;
+package com.zhou.datastruct;
 
 public class MyString {
     public static void main(String[] args) {
